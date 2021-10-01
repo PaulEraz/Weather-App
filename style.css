@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: rgba(3, 3, 3, 0.85);
+    color: #fff;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    font-family: inherit;
+    background-color: #0f0f0f;
+    color: #fff;
+    width: 65%;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.fas {
+    color: #636e72;
+}
+
+.btn {
+    background-color: #0f0f0f;
+    height: 45px;
+    width: 45px;
+    margin: 0 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.btn:hover {
+    background-color: #ced6e0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 10px;
+}

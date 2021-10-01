@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e26febfc3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input data-input type="text" class="search-bar" placeholder="Search weather in...">
+            <button data-search class="btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <h2 data-city class="city"></h2>
+            <h1 data-temp class="temp"></h1>
+            <div class="flex">
+                <img data-icon class="icon" src="" alt="">
+                <div data-description class="description"></div>
+            </div>
+            <div data-humidity class="humidity"></div>
+            <div data-wind class="wind"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
