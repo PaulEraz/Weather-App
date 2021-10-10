@@ -1,5 +1,5 @@
 # Weather-App
 
-pauleraz.github.io/weather-app/
+https://pauleraz.github.io/Weather-App/
 
 API from: https://openweathermap.org/api
